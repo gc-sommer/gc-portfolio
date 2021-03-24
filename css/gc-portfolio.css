@@ -1,0 +1,43 @@
+/*
+ Geocledian portfolio analyst css
+ 
+  main css - imports all dependent css definitions
+
+ created:     2019-04-30, jsommer
+ last update: 2020-04-30, jsommer
+ version: 0.1
+*/
+
+@import '../../gc-portfolio-map/css/gc-portfolio-map.css';
+@import '../../gc-chart/css/gc-chart.css';
+@import '../../gc-filter/css/gc-filter.css';
+@import '../../gc-list/css/gc-list.css';
+
+/* navigation bar */
+
+.navbar > div {
+    color: #EF7D00 !important;
+}
+.navbar > div > a {
+    color: #EF7D00 !important;
+    text-decoration: none !important;
+}
+.navbar-title {
+    padding: 1.5em;
+    font-weight: bold;
+}
+.navbar-start > a {
+    color: #EF7D00 !important;
+    text-decoration: none !important;
+}
+
+/* footer */
+
+#footer {
+    margin-top: 20px;
+}
+
+#footer a {
+    color: #EF7D00 !important;
+    text-decoration: none !important;
+}
